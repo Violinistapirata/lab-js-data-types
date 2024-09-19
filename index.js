@@ -29,7 +29,7 @@ const part1Formated = part1.slice(0, part1.length - 1) + lastChar1Cap;
 const lastChar2Cap = part2[part2.length - 1].toUpperCase();
 const part2Formated = part2.slice(0, part2.length - 1) + lastChar2Cap;
 
-const result = part1Formated + " " + part2Formated;
+const result = part1Formated + part2Formated;
 
 // Print the cameLtaiL-formatted string
 console.log(result);
@@ -58,7 +58,7 @@ console.log("$" + tipAmount);
 
 // Generate a random integer between 1 and 10 (inclusive)
 
-const randomNumber = Math.random() * 10;
+const randomNumber = Math.floor(Math.random() * 10) + 1;
 
 // Print the generated random number
 
